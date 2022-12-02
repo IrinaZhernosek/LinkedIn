@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;700&display=swap');
+
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+
+    background-color: rgb(203, 208, 212);
+    }
+
+    .main_container {
+        width: 800px;
+        min-height: 190px;
+        border: 5px solid white;
+        border-radius: 25px;
+        margin: 0 auto;
+        margin-top: 20px;
+        background: white;
+        position: relative;
+    }
+    .main_containerExperience {
+        width: 800px;
+        height: 500px;
+        border: 5px solid white;
+        border-radius: 25px;
+        margin: 0 auto;
+        margin-top: 20px;
+        background: white;
+        position: relative;
+    }
+    .main_containerEducation {
+        width: 800px;
+        height: 150px;
+        border: 5px solid white;
+        border-radius: 25px;
+        margin: 0 auto;
+        margin-top: 20px;
+        background: white;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .foto_container {
+        width: 150px;
+        min-height: 150px;
+        border: 2px solid rgb(92, 92, 92);
+        border-radius: 500px;
+        margin: 0 auto;
+        margin-top: 25px;
+        margin-left: 20px;
+        background: white;
+        position: absolute;
+    }
+    .image-center {
+        display: block;
+        margin: auto;
+        width: 150px;
+        height: 150px;
+        border-radius: 500px;
+        position: center;
+    }
+    .image-ita {
+        display: block;
+        margin: auto;
+        width: 80px;
+        height: 80px;
+        border-radius: 5px;
+        position: center;
+        margin-left: 85px;
+    }
+    .text_block {
+        width: 450px;
+        min-height: 150px;
+        border: 2px solid white;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-left: 250px;
+        margin-bottom: 20px;
+        background: white;
+        position: sticky;
+        padding-top: 15px;    
+    }
+    .text_block2 {
+        width: 450px;
+        min-height: 150px;
+        border: 2px solid gray;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        background: white;
+        position: absolute;
+        padding-top: 15px;    
+    }
+    
+    .text_block3 {
+        width: 170px;
+        min-height: 25px;
+        border: 2px solid white;
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        background: white;
+        position: sticky;
+        padding-top: 0px;    
+    }
+    .text_block4 {
+        width: 170px;
+        height: 80px;
+        border: 2px solid white;
+        margin: 0 auto;
+        margin-top: 5px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        background: white;
+        position: absolute;
+        padding-top: 0px;    
+        top: 47px;
+        left: 180px;
+    }
+    .text_block5 {
+        width: 170px;
+        height: 80px;
+        border: 2px solid white;
+        margin: 0 auto;
+        margin-top: 5px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        background: white;
+        position: absolute;
+        padding-top: 0px;    
+        top: 153px;
+        left: 180px;
+    }
+    .text_block6 {
+        width: 170px;
+        height: 80px;
+        border: 2px solid white;
+        margin: 0 auto;
+        margin-top: 5px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        background: white;
+        position: absolute;
+        padding-top: 0px;    
+        top: 270px;
+        left: 180px;
+    }
+    .text_block7 {
+        width: 185px;
+        height: 80px;
+        border: 2px solid white;
+        margin: 0 auto;
+        margin-top: 5px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        background: white;
+        position: absolute;
+        padding-top: 0px;    
+        top: 380px;
+        left: 180px;
+    }
+    .text_block8 {
+        width: 185px;
+        height: 80px;
+        border: 2px solid white;
+        margin: 0 auto;
+        margin-top: 5px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        background: white;
+        position: absolute;
+        padding-top: 0px;    
+        top: 45px;
+        left: 180px;
+    }
+    .title1 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family:'Nunito Sans', sans-serif;
+        font-weight: 700;
+        color: rgb(32, 32, 32);
+    }
+    .title2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family :'Nunito Sans', sans-serif;
+        font-weight: 400;
+        color: rgb(48, 46, 46);
+    }
+    .title3 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family :'Nunito Sans', sans-serif;
+        font-size: 200;
+        color: rgb(73, 71, 71);
+    }
+    .titleEducation {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family :'Nunito Sans', sans-serif;
+        font-size: 200;
+        color: rgb(73, 71, 71);
+        line-height: 1;
+        margin-bottom: 5px;
+    }
+    .title4 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family :'Nunito Sans', sans-serif;
+        font-size: 200;
+        color: rgb(73, 71, 71);
+    }
