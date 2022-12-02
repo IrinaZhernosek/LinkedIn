@@ -5,17 +5,26 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
 
-    background-color: rgb(203, 208, 212);
+    background-color: rgb(225, 228, 230);
     }
 
     .main_container {
         width: 800px;
-        min-height: 190px;
-        border: 5px solid white;
+        height: 550px;
+        border: 0px solid white;
         border-radius: 25px;
         margin: 0 auto;
         margin-top: 20px;
         background: white;
+        position: relative;
+    }
+    .top_background {
+        width: 800px;
+        height: 185px;
+        border: 0px solid white;
+        border-radius: 25px 25px 0px 0px;
+        margin: 0 auto;
+        background: rgb(198, 211, 240);
         position: relative;
     }
     .main_containerExperience {
@@ -42,13 +51,14 @@ body {
     .foto_container {
         width: 150px;
         min-height: 150px;
-        border: 2px solid rgb(92, 92, 92);
+        border: 2px solid white;
         border-radius: 500px;
         margin: 0 auto;
         margin-top: 25px;
         margin-left: 20px;
         background: white;
         position: absolute;
+        top: 50px;
     }
     .image-center {
         display: block;
@@ -67,17 +77,66 @@ body {
         position: center;
         margin-left: 85px;
     }
+    .foto_container_users_bottom {
+        width: 40px;
+        min-height: 40px;
+        border: 1px solid white;
+        border-radius: 500px;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-left: 0px;
+        background: white;
+        position: absolute;
+        top: 100px;
+       
+    }
+    .foto_container_users {
+        width: 40px;
+        min-height: 40px;
+        border: 0px solid white;
+        border-radius: 500px;
+        margin: 0 auto;
+        margin-top: 1px;
+        margin-left: 0px;
+        background: white;
+        position: absolute;
+        left: 25px;
+        top: 111px;
+        
+    }
+    .image-users-bottom {
+        display: block;
+        margin: auto;
+        width: 40px;
+        height: 40px;
+        border-radius: 500px;
+        position: center;
+        margin-left: 0px;
+        left: 20px;
+        
+    }
+    .image-users {
+        display: block;
+        margin: auto;
+        width: 40px;
+        height: 40px;
+        border-radius: 500px;
+        position: center;
+        margin-left: 0px;
+        left: 150px;
+    }
     .text_block {
         width: 450px;
-        min-height: 150px;
-        border: 2px solid white;
+        height: 300px;
+        border: 1px solid white;
         margin: 0 auto;
-        margin-top: 20px;
-        margin-left: 250px;
-        margin-bottom: 20px;
+        margin-top: 0px;
+        margin-left: 25px;
+        margin-bottom: 0px;
         background: white;
-        position: sticky;
-        padding-top: 15px;    
+        position: absolute;
+        padding-top: 0px;
+        top: 250px;    
     }
     .text_block2 {
         width: 450px;
@@ -178,8 +237,10 @@ body {
         margin-top: 0px;
         margin-bottom: 0px;
         font-family:'Nunito Sans', sans-serif;
-        font-weight: 700;
+        font-weight: 500;
         color: rgb(32, 32, 32);
+        font-size: 160%;
+        line-height: 1;
     }
     .title2 {
         margin-top: 0px;
@@ -199,15 +260,17 @@ body {
         margin-top: 0px;
         margin-bottom: 0px;
         font-family :'Nunito Sans', sans-serif;
-        font-size: 200;
+        font-weight: 200;
+        font-size: 95%;
         color: rgb(73, 71, 71);
         line-height: 1;
         margin-bottom: 5px;
     }
     .title4 {
-        margin-top: 0px;
+        margin-top: 7px;
         margin-bottom: 0px;
         font-family :'Nunito Sans', sans-serif;
-        font-size: 200;
-        color: rgb(73, 71, 71);
+        font-size: 85%;
+        
+        color: rgb(110, 107, 107);
     }
